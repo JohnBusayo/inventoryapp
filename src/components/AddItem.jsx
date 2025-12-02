@@ -54,7 +54,7 @@ const AddItem = () => {
       maintenanceNotes: '' 
     });
     setScanning(false);  // Stop scanning on submit
-    setTimeout(() => window.location.href = '/stock', 2000);
+  //  setTimeout(() => window.location.href = '/stock', 2000);
   };
 
   return (
@@ -278,5 +278,6 @@ const AddItem = () => {
     </Container>
   );
 };
+
 
 export default AddItem;
